@@ -11,7 +11,7 @@ const Cart = () => {
 
   return (
     <div>
-      <h1>Shopping Cart</h1>
+      <h1>Ruthrapathi-Shopping Cart</h1>
       
       {products.map(product => (
         <div key={product.id} style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
